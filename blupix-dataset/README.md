@@ -27,6 +27,7 @@ Contains 225 paired photos of stop signs
 - Blupix test v.2022.1
 Contains 300 paired photos of stop signs
 
+Note: The photos in the Blupix dataset are not mutually exclusive, rather they have been cumulated in each version of the dataset. Meaning that, Blupix test v.2021.1 contains all photos in the Blupix test v.2020.1 plus 39 additional photos (186 + 39 = 225). Also, Blupix test v.2022.1 contains all photos in the Blupix test v.2020.1 (and Blupix test v.2021.1) plus 75 additional photos (225 + 75 = 300). 
 
 ## Credits:
 
