@@ -29,7 +29,7 @@ To estimate flood depth using our approach, a pair of pre- and post-flood street
 
 The depth of floodwater, i.e., d_w, can be calculated as the difference between pole lengths in a pair of pre- and post-flood photos. In figure below, knowing the height of the sign octagon in both pixels (s) and in inches (30"), the constant ratio r is obtained as 30⁄s , indicating the number of inches corresponding to one pixel in the post-flood photo. Using this ratio, the length of the pole above waterline is calculated as r×p, in which p is the pole length in pixels. Similarly, In Figure IV-1(b), knowing the height of the sign octagon in pixels (s') and inches (30", same as before), the constant ratio r' is obtained as 30⁄s', indicating the number of inches corresponding to one pixel in the pre-flood photo. Using this ratio, the full length of the pole (with no floodwater) is calculated as r'×p', in which p' is the pole length in pixels. Note that ratios r and r' are not necessarily equal since the two photos could be taken at different angles and distances from the stop sign. 
 
-![img2](concept-fig4.png)
+![img2](concept_fig4.png)
 
 
 ## Credits:
