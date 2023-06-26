@@ -27,3 +27,25 @@ Equation: D (in.)=[ P' × (30 or 36)/S'] -[ P × (30 or 36)/S]
 ## How the app works:
 For each image, there are three APIs to load and run the object detection model: 1- preparing the image (Tensor image), 2- creating a detector object, 3- and connecting 1 and 2. The captured image is then decoded into the Bitmap format and passed to the object detection model. Using this Bitmap image as input, the object detector returns a list of detection results. The outcome is then filtered to retain only the object of interest (in this case, stop sign and pole) with a detection confidence higher than a user-specified threshold (here, 50%). 
 Next, using the Calculate button, the user will be asked to enter the real-world size of the stop sign (in a residential area, the user will enter 30 in., and in a non-residential area, the user will enter 36 in.). Giving this flexibility to the user in this version of the app will guarantee that the correct real-world size is used for calculating the pixel-to-inch ratio. Then, two pole lengths (one in the pre-flood photo and another one in the post-flood photo) are calculated and compared, to obtain an approximation of the floodwater depth.
+
+
+## Creidt:
+Blupix Mobile is an Android app that uses AI algorithms to estimate flood depth based on paired photos of stop signs during and before a flood. This app is designed, developed and maintained by Dr. Bahareh Alizadeh under the supervision of Dr. Amir H. Behzadan, as a part of a research project funded by National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce.
+
+
+
+Copyright 2023 Bahareh Alizadeh
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
