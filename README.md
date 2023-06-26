@@ -25,11 +25,11 @@ Traffic signs are used in this study as standard visual benchmarks. Unlike sophi
 
 To estimate flood depth using our approach, a pair of pre- and post-flood street photos taken by ordinary handheld devices (e.g., smartphones, tablet computers, digital cameras) will be processed by computer vision models and the output is the depth of floodwater in the location where the photos were taken. While images can be taken from different angles and different distances from the water surface, to measure the depth of the flood, the model relies on the dimensions of a known benchmark visible in the image, for which the real size (e.g., in inches) is known. Image processing and computer vision are then used to determine the size of this benchmark in pixels and calculate a constant measurement ratio (e.g., inches to pixel), which in turn, is used to convert all other measurements from pixel to standard units (e.g., inches).
 
-![img1](concept-fig1.png)
+![img1](concept-fig3.png)
 
 The depth of floodwater, i.e., d_w, can be calculated as the difference between pole lengths in a pair of pre- and post-flood photos. In figure below, knowing the height of the sign octagon in both pixels (s) and in inches (30"), the constant ratio r is obtained as 30⁄s , indicating the number of inches corresponding to one pixel in the post-flood photo. Using this ratio, the length of the pole above waterline is calculated as r×p, in which p is the pole length in pixels. Similarly, In Figure IV-1(b), knowing the height of the sign octagon in pixels (s') and inches (30", same as before), the constant ratio r' is obtained as 30⁄s', indicating the number of inches corresponding to one pixel in the pre-flood photo. Using this ratio, the full length of the pole (with no floodwater) is calculated as r'×p', in which p' is the pole length in pixels. Note that ratios r and r' are not necessarily equal since the two photos could be taken at different angles and distances from the stop sign. 
 
-![img2](concept-fig2.png)
+![img2](concept-fig4.png)
 
 
 ## Credits:
