@@ -33,7 +33,7 @@ Next, using the Calculate button, the user will be asked to enter the real-world
 ![img1](Blupix-mobile-fig2.png)
 
 ## Credits:
-Blupix Mobile is an Android app that uses AI algorithms to estimate flood depth based on paired photos of stop signs during and before a flood. This app is designed, developed and maintained by Dr. Bahareh Alizadeh under the supervision of Dr. Amir H. Behzadan, as a part of a research project funded by National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce.
+Blupix Mobile is an Android app that uses AI algorithms to estimate flood depth based on paired photos of stop signs during and before a flood. This app is designed, developed and maintained by Dr. Bahareh Alizadeh (Ph.D. graduate from Texas A&M University) under the supervision of Dr. Amir H. Behzadan (Professor at Texas A&M University), as a part of a research project funded by National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce.
 
 
 
