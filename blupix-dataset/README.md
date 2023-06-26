@@ -31,4 +31,4 @@ Note: The photos in the Blupix dataset are not mutually exclusive, rather they h
 
 ## Credits:
 
-The Blupix datasets consist of photos and metadata gathered through a collaborative effort involving study personnel, including Dr. Bahareh Alizadeh (Ph.D. graduate), and Nathan Young (Ph.D. student of Geography), as well as contributions from the general public through crowdsourcing.
+The Blupix datasets consist of photos and metadata gathered through a collaborative effort involving study personnel, including Dr. Bahareh Alizadeh (Ph.D. graduate from Texas A&M University), and Nathan Young (Ph.D. student of Texas A&M University), as well as contributions from the general public through crowdsourcing.
