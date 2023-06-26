@@ -1,4 +1,4 @@
-# Blupix
+# Blupix Project
 
 Thank you for using BluPix! The photos you take and share on this crowdsourced flood risk mapping application will help your community better document and understand the impact of floods in your area. Our models compare pre-flood and post-flood photos of the same location to estimate the depth of floodwater in that particular location. We use traffic signs as benchmarks since their shapes and sizes are standardized anywhere in the country. With your help, BluPix will assist communities and disaster response teams in mitigating flood risk, which saves lives, resources, and infrastructure.
 
