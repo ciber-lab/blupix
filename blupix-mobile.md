@@ -16,7 +16,7 @@ Equation: D (in.)=[ P' × (30 or 36)/S'] -[ P × (30 or 36)/S]
         where:     D is the depth of floodwater; P and P’ are pole lengths; S and S’ are stop sign heights
 
 
-![img1](https://github.com/[username]/[reponame]/blob/[branch]/Blupix-mobile-fig1.png)
+![img1](Blupix-mobile-fig1.png)
 
 ## Software specification:
 -A pretrained EfficientDet03 on ImageNet that was retrained on an in-house dataset of 800 annotated stop signs before and after a flood (Blupix Dataset)
