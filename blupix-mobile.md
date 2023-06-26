@@ -15,6 +15,9 @@ This app uses stop signs as measurement benchmarks to estimate flood depth in cr
 Equation: D (in.)=[ P' × (30 or 36)/S'] -[ P × (30 or 36)/S]
         where:     D is the depth of floodwater; P and P’ are pole lengths; S and S’ are stop sign heights
 
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/Blupix-mobile-fig1.png?raw=true)
+
 ## Software specification:
 -A pretrained EfficientDet03 on ImageNet that was retrained on an in-house dataset of 800 annotated stop signs before and after a flood (Blupix Dataset)
 -The model was converted to a TensorFlow Lite which is optimized to run on mobile devices.
