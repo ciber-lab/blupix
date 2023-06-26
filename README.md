@@ -36,7 +36,7 @@ The depth of floodwater, i.e., d_w, can be calculated as the difference between 
      𝑑_𝑤(𝑖𝑛)=𝑃 (𝑖𝑛)−𝑃^′(𝑖𝑛)
 
 
-![img2](concept_fig4.png)
+![img2](concept_fig4.png=100x100)
 
 
 ## Credits:
