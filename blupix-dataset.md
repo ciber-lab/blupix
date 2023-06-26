@@ -1,6 +1,6 @@
 # Blupix Dataset
 
-# Overview:
+## Overview:
 
 | Dataset  | Description | Link | Used in paper |
 | ------------- | ------------- | ------------- | ------------- |
@@ -11,16 +11,15 @@
 
 
 
-# Blupix trainining set
-## Blupix train v.2021.2
+## Blupix trainining set
+### Blupix train v.2021.2
 ![img2](blupix-dataset-fig1.png)
 
+## Blupix test set
+The dataset is designed for testing the trained model and comprises paired photos of stop signs captured before and after a flood event. It encompasses various information, including the photo name (photo ID), country, state, and city (the location of the stop sign in the photo), longitude and latitude (precise coordinates of the stop sign), source (where the photo was sourced from), date taken (when the photo was captured), date saved (when the photo was added to the dataset), flood name (if known), searching keywords (keywords used to find the photos), post-flood link (link to post-flood photos), Google Street View link (link to pre-flood photo on Google Street View), comment (any additional remarks about the photo), and found by (name of the study personnel who discovered the photo). The last three columns in the dataset indicate the presence of the photo in the three different versions of the dataset.
 
 
-# Blupix test set
-This dataset is used for testing the trained model and consists of paired photos of stop signs (before and after a flood). The dataset contains information such as photo name (the photo ID), country, state and city (location of the stop sign in the photo), longitude and latitude (precise location of the stop sign), source (where photo is found), date taken (when the photo is taken), date saved (when the photo is added to the dataset), flood name (the name of the flood if known), searching keywords (keywords that were used to find the photos), post-flood link (the link for the post-flood photos), Google Street View link (the link to the Google Street View of the pre-flood photo), comment (any comment about the photo), and found by (the name of the study personnel). The last three columns in the dataset determines which photo exist in the three version of the dataset.
-
-## Blupix test set versions
+### Blupix test set versions
 - Blupix test v.2020.1
 Contains 186 paired photos of stop signs
 - Blupix test v.2021.1
@@ -28,3 +27,7 @@ Contains 225 paired photos of stop signs
 - Blupix test v.2022.1
 Contains 300 paired photos of stop signs
 
+
+## Credits:
+
+The Blupix datasets consist of photos and metadata gathered through a collaborative effort involving study personnel, including Dr. Bahareh Alizadeh (Ph.D. graduate), and Nathan Young (Ph.D. student of Geography), as well as contributions from the general public through crowdsourcing.
