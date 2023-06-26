@@ -4,7 +4,7 @@ Thank you for using BluPix! The photos you take and share on our crowdsourcing a
 
 | Product  | Description | Link |
 | ------------- | ------------- | ------------- |
-| Blupix app  | A crowdsourcing web application for collecting photos of flooded stop signs. This web app uses AI algorithms to calculate flood depth based on the size of stop signs and generate a flood depth map. | [https://blupix.geos.tamu.edu/]
+| Blupix  | A crowdsourcing web application for collecting photos of flooded stop signs. This web app uses AI algorithms to calculate flood depth based on the size of stop signs and generate a flood depth map. | [https://blupix.geos.tamu.edu/]
 | Blupix Preflood  | A crowdsourcing web application for collecting photos of stop signs. | [https://blupix-image.geos.tamu.edu/]
 | Blupix Mobile  | An Android mobile app for real-time flood depth estimation in urban areas. | [https://github.com/ciber-lab/blupix/tree/main/blupix-mobile]
 | Blupix Dataset  | Annotated photos of stop signs before and after flood. | [https://github.com/ciber-lab/blupix/tree/main/blupix-dataset]
@@ -32,7 +32,7 @@ The depth of floodwater, i.e., d_w, can be calculated as the difference between 
 
 ![img2](concept_fig4.png)
 
-## The connection between Blupix app, Blupix Mobile app, and Blupix Preflood app:
+## The connection between Blupix products:
 
 - The Blupix app serves as the main platform, accessible via a dedicated website [https://blupix.geos.tamu.edu], where people can upload photos of flooded traffic signs using their mobile devices or computers. Users can manually pair uploaded photos with corresponding pre-flood photos by entering the location of the traffic sign in GSV. The app admin reviews uploaded photos, and subsequently feeds them to a computer vision model for further analysis. The output of this step is the estimate of flood depth, which is also reported on the map alongside the pre- and post-flood photos of the stop sign. Given an uploaded photo pair, if only the post-flood photo is approved by the admin, only the post-flood photo will be pinned on the map which can be paired with the correct pre-flood photo later by the same or other users.
 - Blupix Mobile, on the other hand, is a mobile app that enables users to take a photo of a flooded traffic sign while the app automatically pairs it with the GSV view of the same traffic sign using GPS and accelerometer data of the mobile device. Upon the completion of the pairing process (which takes only a few seconds), the mobile app provides instant flood depth information through its built-in computer vision model. Users can also upload their paired photo with the calculated flood depth to a cloud database, which is then reviewed by the admin and  pinned on the map. The Blupix Mobile app is available for Android devices and can be downloaded from the research lab’s GitHub page [https://github.com/ciber-lab/blupix/tree/main/blupix-mobile].
