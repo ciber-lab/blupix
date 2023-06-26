@@ -29,7 +29,7 @@ For each image, there are three APIs to load and run the object detection model:
 Next, using the Calculate button, the user will be asked to enter the real-world size of the stop sign (in a residential area, the user will enter 30 in., and in a non-residential area, the user will enter 36 in.). Giving this flexibility to the user in this version of the app will guarantee that the correct real-world size is used for calculating the pixel-to-inch ratio. Then, two pole lengths (one in the pre-flood photo and another one in the post-flood photo) are calculated and compared, to obtain an approximation of the floodwater depth.
 
 
-## Creidt:
+## Credits:
 Blupix Mobile is an Android app that uses AI algorithms to estimate flood depth based on paired photos of stop signs during and before a flood. This app is designed, developed and maintained by Dr. Bahareh Alizadeh under the supervision of Dr. Amir H. Behzadan, as a part of a research project funded by National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce.
 
 
