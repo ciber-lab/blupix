@@ -4,13 +4,18 @@ We introduce Blupix, a mobile application with embedded computing functionality 
 
 ## Link to the paper: [https://dl.acm.org/doi/abs/10.1145/3557916.3567824]
 
+## Downloadable file:
+
+The APK file will be released in October 2023 on this page. Stay tuned!
+
+
 ## Using traffic signs as measurement benchmarks
 This app uses stop signs as measurement benchmarks to estimate flood depth in crowdsourced images of urban floods. The reason behind this choice is threefold: (1) Stop signs are omnipresent in many residential neighborhoods; (2) They have standardized dimensions and shape, making them an ideal choice for automated visual recognition. In the U.S., stop signs heights are either 30 in. (in residential streets) or 36 in. (in non-residential areas); (3) They are installed on road intersections, thus following a regular grid pattern. Knowing the depth of flood on every node of a grid is ideal for data interpolation and superimposition. If the height of a stop sign (S) can be determined in pixels, given its standardized size in inches, a constant pixel-to-inch ratio can be computed for all other visible objects in the image. Next, the pole length (on which the sign is mounted) can be determined (in inches) by dividing the pole length in pixels by the same pixel-to-inch ratio. Then, floodwater depth (D) is calculated as the difference between pole lengths in pre- (P') and post-flood photos (P). The equation and image below demonstrate the calculation process.
 
 Equation: D (in.)=[ P' × (30 or 36)/S'] -[ P × (30 or 36)/S]
         where:     D is the depth of floodwater; P and P’ are pole lengths; S and S’ are stop sign heights
 
-##Software specification:
+## Software specification:
 -A pretrained EfficientDet03 on ImageNet that was retrained on an in-house dataset of 800 annotated stop signs before and after a flood (Blupix Dataset)
 -The model was converted to a TensorFlow Lite which is optimized to run on mobile devices.
 -Android Studio version 4.2 was used for developing the Android app in Kotlin programming language.
