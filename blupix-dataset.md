@@ -11,3 +11,4 @@
 
 # Blupix train v.2021.2
 
+![img2](blupix-dataset-fig1.png)
