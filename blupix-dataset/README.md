@@ -4,10 +4,10 @@
 
 | Dataset  | Description | Link | Used in paper |
 | ------------- | ------------- | ------------- | ------------- |
-| Blupix train v.2021.2  | Contains 800 annotated photos of stop signs for training the object detection model | [https://blupix.geos.tamu.edu/] | 
-| Blupix test v.2020.1  | Contains 186 annotated paired photos of stop signs (before and after a flood) for testing the object detection model | [https://blupix-image.geos.tamu.edu/]
-| Blupix test v.2021.1  | Contains 225 annotated paired photos of stop signs (before and after a flood) for testing the object detection model| [https://github.com/ciber-lab/blupix/blob/main/blupix-mobile.md]
-| Blupix test v.2022.1  | Contains 300 annotated paired photos of stop signs (before and after a flood) for testing the object detection model | [https://github.com/ciber-lab/blupix/blupix-dataset]
+| Blupix train v.2021.2  | Contains 800 annotated photos of stop signs for training the object detection model |  | 
+| Blupix test v.2020.1  | Contains 186 annotated paired photos of stop signs (before and after a flood) for testing the object detection model | |
+| Blupix test v.2021.1  | Contains 225 annotated paired photos of stop signs (before and after a flood) for testing the object detection model| |
+| Blupix test v.2022.1  | Contains 300 annotated paired photos of stop signs (before and after a flood) for testing the object detection model | |
 
 
 
