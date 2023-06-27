@@ -19,10 +19,10 @@ This app uses stop signs as measurement benchmarks to estimate flood depth in cr
 ![img1](Blupix-mobile-fig1.png)
 
 ## Software specification:
--A pretrained EfficientDet03 on ImageNet that was retrained on an in-house dataset of 800 annotated stop signs before and after a flood (Blupix Dataset)
--The model was converted to a TensorFlow Lite which is optimized to run on mobile devices.
--Android Studio version 4.2 was used for developing the Android app in Kotlin programming language.
--The Static API of Google Street View is implemented in the app to enable the user capture a snapshot of the stop sign before the flood.
+- A pretrained EfficientDet03 on ImageNet that was retrained on an in-house dataset of 800 annotated stop signs before and after a flood (Blupix Dataset)
+- The model was converted to a TensorFlow Lite which is optimized to run on mobile devices.
+- Android Studio version 4.2 was used for developing the Android app in Kotlin programming language.
+- The Static API of Google Street View is implemented in the app to enable the user capture a snapshot of the stop sign before the flood.
 
 ## How the app works:
 For each image, there are three APIs to load and run the object detection model: 1- preparing the image (Tensor image), 2- creating a detector object, 3- and connecting 1 and 2. The captured image is then decoded into the Bitmap format and passed to the object detection model. Using this Bitmap image as input, the object detector returns a list of detection results. The outcome is then filtered to retain only the object of interest (in this case, stop sign and pole) with a detection confidence higher than a user-specified threshold (here, 50%). 
